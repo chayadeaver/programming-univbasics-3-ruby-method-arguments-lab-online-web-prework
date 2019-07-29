@@ -3,6 +3,7 @@ name = "Dan"
 name = "Edwin"
 language = "Ember.js"
 language = "React"
+language = "Python"
 
 
 def introduction(name)
@@ -10,6 +11,7 @@ def introduction(name)
 end
 
 introduction("Josh")
+introduction("Dan")
 
 def introduction_with_language(name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
